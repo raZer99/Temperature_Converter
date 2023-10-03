@@ -1,8 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: black;
 }
 
 .container {
+    border: 10px solid yellowgreen;
     text-align: center;
     margin-top: 50px;
     color: #ffffff;
@@ -33,15 +35,17 @@ button {
 }
 
 .result {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
+    color: moccasin;
 }
 
 .main_container{
     width: 50vw;
     height: 33vh;
     border-radius: 30px;
-    margin: 250px 370px;
+    margin: 250px 390px;
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
